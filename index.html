@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- BS cdn-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+    <div>
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> KAOJE</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto nav-pills">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#s1">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#s2">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#s3">Project</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#s4">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+   
+    <section class="intro">
+      <div id="home" class="grid grid-cols-1">
+      
+        <div> <img class="img img-responsive" src="img/Brazuca.png" alt=""> 
+          <h1 class="text-3xl font-semibold">
+            HELLO, ARE YOU LOOKING FOR A FRONT-END DEVELOPER?
+          </h1>
+        </div>
+        </div>
+      </div>
+    </section>
+    <section class="me">
+    <div id="s1" class="bg-slate-800 grid grid-cols-2 ">
+      <div>
+        <img class="gin img-responsive" src="img/gin.jpg" alt="">
+      </div>
+      <div class="my-10">
+        <div class="my-8 text-3xl font-semibold">
+
+          <h1>About Me</h1>
+        </div>
+        <p class="text-white text-lg mr-4 leading=loose"> HI, I AM AHMAD A FRONT-END DEVELOPER AND PROGRAMMER. CURRENTLY A FINAL YEAR COMPUTER
+          SCIENCE STUDENT AT ABU ZARIA. I HAVE A KEEN INTEREST IN MACHINE LEARNING AND COMPUTER VISION,
+          WHEN I'M NOT WORKING ON A WEBSITE I EITHER PLAY GAMES, READ COMICS OR WORK ON MY ML AND CV SKILLS.
+        </p>
+        <div class="mt-6">
+          <button class="bg-sky-600 hover:bg-sky-800 text-white rounded p-3 hover:decoration-white">
+           <a href="#" id="resume">Download Resume</a>
+          </button>
+        </div>
+      </div>
+    </div>
+    </section>
+    <div id="s2" class="bg-emerald-500"></div>
+    <div id="s3" class="bg-emerald-600"></div>
+    <div id="s4" class="bg-emerald-700"></div>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="script.js"></script>
+  <!-- JavaScript Bundle with Popper -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"
+  ></script>
+</html>
