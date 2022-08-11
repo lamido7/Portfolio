@@ -12,8 +12,15 @@
       integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"
     />
+
+    <!--AoS cdn-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
     <link rel="stylesheet" href="css/main.css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    
+    
   </head>
   <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
     <div>
@@ -40,7 +47,7 @@
                 <a class="nav-link" href="#s1">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#s2">Skills</a>
+                <a class="nav-link" href="#s2">Services</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#s3">Project</a>
@@ -56,43 +63,202 @@
 
    
     <section class="intro">
-      <div id="home" class="grid grid-cols-1">
-      
-        <div> <img class="img img-responsive" src="img/Brazuca.png" alt=""> 
-          <h1 class="text-3xl font-semibold">
-            HELLO, ARE YOU LOOKING FOR A FRONT-END DEVELOPER?
-          </h1>
-        </div>
-        </div>
+      <div id="home" class="my-5">
+<div  >
+  <div class="banner">
+    <div class="banner_content py-5 pl-3 ">
+      <h3 class="text-uppercase">Hell0</h3>
+      <h1 class="text-uppercase">I am Lamido</h1>
+      <h5 class="text-uppercase">juniour developer</h5>
+      <button class="border-solid border-2 border-teal-400 rounded-md p-3 ml-5 hover:bg-black hover:text-white">
+        <a href="https://lamido7.github.io/A-s-delight/" id="resume" class="hover:text-sky-500">Take Me There</a>
+       </button>
+    </div>
+  </div>
+
+</div>
+
+       
       </div>
     </section>
+
+
     <section class="me">
     <div id="s1" class="bg-slate-800 grid grid-cols-2 ">
       <div>
         <img class="gin img-responsive" src="img/gin.jpg" alt="">
       </div>
-      <div class="my-10">
-        <div class="my-8 text-3xl font-semibold">
+      <div>
+        <div class="my-10">
 
-          <h1>About Me</h1>
+          <h1 class="text-xl font-medium">About Me</h1>
+
+          <p class="text-white text-lg mr-4 leading-none sm:text-2xl sm:leading-loose  "> I'm Ahmad, a programmer and front-end developer. Currently in my fourth year of computer science at ABU zaria. 
+            When I have leisure time, I either play video games, read comic books, or practice my machine learning and computer vision skills.
+          </p>
         </div>
-        <p class="text-white text-lg mr-4 leading=loose"> HI, I AM AHMAD A FRONT-END DEVELOPER AND PROGRAMMER. CURRENTLY A FINAL YEAR COMPUTER
-          SCIENCE STUDENT AT ABU ZARIA. I HAVE A KEEN INTEREST IN MACHINE LEARNING AND COMPUTER VISION,
-          WHEN I'M NOT WORKING ON A WEBSITE I EITHER PLAY GAMES, READ COMICS OR WORK ON MY ML AND CV SKILLS.
-        </p>
+        
         <div class="mt-6">
-          <button class="bg-sky-600 hover:bg-sky-800 text-white rounded p-3 hover:decoration-white">
+          <button class="bg-sky-600 hover:bg-sky-800 text-white rounded p-3 mr-4  hover:decoration-white">
            <a href="#" id="resume">Download Resume</a>
           </button>
         </div>
       </div>
     </div>
     </section>
-    <div id="s2" class="bg-emerald-500"></div>
-    <div id="s3" class="bg-emerald-600"></div>
-    <div id="s4" class="bg-emerald-700"></div>
-  </body>
-  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <section class="ftco" >
+      <div id="s2" class="bg-gray-300 ">
+
+        
+          
+          
+          <div class="container">
+          <div class="row justify-content-center py-3">
+          <div class="col-md-3 text-center d-flex  align-items-stretch " data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+          <div class="services">
+          <div class="icon"><span class="flaticon-ux"><img src="img/ux-interface.png" alt=""></span></div>
+          <div class="text">
+          <h2 class="font-semibold text-2xl">UI/UX Design</h2>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          </div>
+          </div>
+          </div>
+          <div class="col-md-3 text-center d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+          <div class="services">
+          <div class="icon"><span class="flaticon-web-programming"><img src="img/web-design.png" alt=""></span></div>
+          <div class="text">
+          <h2 class="font-semibold text-2xl">Web Development</h2>
+          <p>Creating websites that are user-friendly, effective and appealing.Testig and improving the desing of a website.</p>
+          </div>
+          </div>
+          </div>
+         
+          
+          
+          
+          <div class="col-md-3 text-center d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+          <div class="services">
+          <div class="icon"><span class="flaticon-consulting"><img src="img/technical-support.png" alt=""></span></div>
+          <div class="text">
+          <h2 class="font-semibold text-2xl">IT Consultancy</h2>
+          <p>Evaluating a  Company's IT system to help them meet thier business objectives.As well as managing IT initiatives and collaborating with in-house technical staff</p>
+          </div>
+          </div>
+          </div>
+          </div>
+          </div>
+
+        
+       
+   </div>
+    </section>
+    <section class="projects">
+    <div id="s3" class="bg-white">
+
+      <div class="row row-cols-1 row-cols-md-3 g-4 py-4">
+        <div class="col">
+          <div class="card h-100 w-82 shadow p-3 mb-5 bg-body rounded">
+            <img src="img/deli.png" class="card-img-top" alt="...">
+            <div class="card-body ">
+              <h5 class="card-title font-semibold">A's Delight</h5>
+              <p class="card-text">Snack Order Website</p>
+              <div class="mt-6">
+                <button class="border-solid border-2 border-teal-400 rounded-md p-3 ">
+                 <a href="https://lamido7.github.io/A-s-delight/" id="resume" class="hover:text-sky-500">Take Me There</a>
+                </button>
+              </div>
+              
+            </div>
+            
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card w-82 h-100 shadow p-3 mb-5 bg-body rounded ">
+            <img src="img/zuri.png" class="card-img-top" alt="...">
+            <div class="card-body ">
+              <h5 class="card-title font-semibold">Zuri Landing Page</h5>
+              <p class="card-text">Unlock Your Potential</p>
+              <div class="mt-6">
+                <button class="border-solid border-2 border-lime-600 rounded-md p-3 ">
+                 <a href="https://lamido7.github.io/Zuri/" id="resume" class="hover:text-sky-500">Let's GO!</a>
+                </button>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 w-82 shadow p-3 mb-5 bg-body rounded">
+            <img src="img/progress.webp" class="card-img-top" alt="...">
+            
+            <div class="card-body">
+              <h5 class="card-title font-semibold">In Progress</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+    </div>
+    </section>
+    <div id="s4" >
+
+<div class="wrap">
+  <div class="container-contact100">
+    <div class="wrap-contact100">
+    <form class="contact100-form validate-form">
+    <span class="contact100-form-title">
+    Contact Us
+    </span>
+    <div class="wrap-input100 validate-input bg1" data-validate="Please Type Your Name">
+    <span class="label-input100">FULL NAME *</span>
+    <input class="input100" type="text" name="name" placeholder="Enter Your Name" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4EaVTO26DQBD1ohQWaS2lg9JybZ+AK7hNwx2oIoVf4UPQ0Lj1FdKktevIpel8AKNUkDcWMxpgSaIEaTVv3sx7uztiTdu2s/98DywOw3Dued4Who/M2aIx5lZV1aEsy0+qiwHELyi+Ytl0PQ69SxAxkWIA4RMRTdNsKE59juMcuZd6xIAFeZ6fGCdJ8kY4y7KAuTRNGd7jyEBXsdOPE3a0QGPsniOnnYMO67LgSQN9T41F2QGrQRRFCwyzoIF2qyBuKKbcOgPXdVeY9rMWgNsjf9ccYesJhk3f5dYT1HX9gR0LLQR30TnjkUEcx2uIuS4RnI+aj6sJR0AM8AaumPaM/rRehyWhXqbFAA9kh3/8/NvHxAYGAsZ/il8IalkCLBfNVAAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;">
+    </div>
+    <div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate="Enter Your Email (e@a.x)">
+    <span class="label-input100">Email *</span>
+    <input class="input100" type="text" name="email" placeholder="Enter Your Email ">
+    </div>
+    <div class="wrap-input100 bg1 rs1-wrap-input100">
+    <span class="label-input100">Phone</span>
+    <input class="input100" type="text" name="phone" placeholder="Enter Number Phone">
+    </div>
+    
+    <div class="wrap-input100 validate-input bg0 rs1-alert-validate" data-validate="Please Type Your Message">
+    <span class="label-input100">Message</span>
+    <textarea class="input100" name="message" placeholder="Your message here..."></textarea>
+    </div>
+    <div class="container-contact100-form-btn">
+    <button class="contact100-form-btn">
+    <span>
+    Submit
+    <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+    </span>
+    </button>
+    </div>
+    </form>
+    </div>
+    </div>
+
+    </div>
+
+
+    <section class="getintoch" id="Contact">
+      <h1 class="heading">Get in touch</h1>
+      <ul>
+        
+          <li data-aos="fade-up" data-aos-duration="500"><a href="https://www.instagram.com/lamido7/"><img src="img/instagram.png"></a></li>
+          <li data-aos="fade-up" data-aos-duration="500"><a href="https://twitter.com/lamidoM8"><img src="img/twitter-free-icon-font.png"></a></li>
+          <li data-aos="fade-up" data-aos-duration="500"><a href="https://github.com/lamido7"><img src="img/github.png"></a></li>
+      </ul>
+    
+  </section>
+
+
+    <footer>&copy; Lamido 2022</footer>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script src="script.js"></script>
@@ -102,4 +268,9 @@
     integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
     crossorigin="anonymous"
   ></script>
+  <script>
+    AOS.init();
+  </script>
+  </body>
+  
 </html>
