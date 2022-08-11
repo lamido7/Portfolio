@@ -56,7 +56,7 @@ a:hover{
 .projects {
     height: 700px;
     
-    overflow: hidden !important;
+    overflow:auto;
 }
 }
 
@@ -113,8 +113,7 @@ a:hover{
 padding: 0em 0;
     position: relative;
     width: 100%;
-    overflow-x: hidden;
-}
+   }
 
 .services {
   width: 100%;
@@ -320,7 +319,12 @@ textarea.input100 {
   .rs1-wrap-input100 {
     width: 100%;
   }
-
+  .ftco{
+    padding: 0em 0;
+        position: relative;
+        width: 100%;
+        overflow: auto;
+       }
 }
 
 @media (max-width: 576px) {
@@ -436,5 +440,6 @@ textarea.input100 {
     align-items: center;
     flex-direction: column;
     height: auto;
+    overflow: hidden;
 }
 }
