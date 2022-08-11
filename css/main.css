@@ -39,7 +39,9 @@ body {
     margin-left: 5vh;
 }
 
-
+.me{
+  overflow: auto;
+}
 
 .me h1{
     color: white;
